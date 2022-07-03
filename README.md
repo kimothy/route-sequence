@@ -46,7 +46,7 @@ from route_sequence import RouteSequence
 [(1, RouteSequence(FG9032)), (2, RouteSequence(FG9033), (3, RouteSequence(FG9034))]
 ~~~
 
-Iterationg using next()
+Iteration using next()
 ~~~ python
 from route_sequence import RouteSequence
 
