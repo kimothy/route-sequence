@@ -14,6 +14,11 @@ Some practical use cases could be a unique id for a configuration line, order nu
 Even though the number series supports mathmatical operations, the intention is to provide
 a unique number series.
 
+## Key features
+- Acts like an integer and a sequence generator.
+- Can represented in two forms, string or int.
+- Easy to work with.
+
 ## Usage
 
 ~~~ python
