@@ -49,7 +49,7 @@ The RouteSequence can also be used with zip.
 from route_sequence import RouteSequence
 
 >>> print(list(zip([1, 2, 3], RouteSequence('FG9032'))
-[(1, RouteSequence(FG9032)), (2, RouteSequence(FG9033), (3, RouteSequence(FG9034))]
+[(1, RouteSequence(FG9033)), (2, RouteSequence(FG9034), (3, RouteSequence(FG9035))]
 ~~~
 
 Iteration using next()
