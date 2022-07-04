@@ -24,9 +24,6 @@ RouteSequence(AZ9998)
 >>> for route in route_sequence:
 >>>     if route == 'BA0001':
 >>>         break
-
-
->>> print(route_sequence)
 RouteSequence(BA0001)
 ~~~
 
@@ -39,8 +36,6 @@ You can also work with integers. Interally calculations and state is stored as a
 >>> for route in route_sequence:
 >>>     if route == 923300:
 >>>         break
-        
->>> print(route_sequence)
 RouteSequence(DO3300)
 ~~~
 
@@ -57,9 +52,8 @@ Iteration using next()
 >>> from route_sequence import RouteSequence
 
 >>> route_sequence = RouteSequence()
+RouteSequence(AA0000)
 >>> next(route_sequence)
-
->>> print(route_sequence)
 RouteSequence(AA0001)
 ~~~
 
