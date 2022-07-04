@@ -53,6 +53,7 @@ Iteration using next()
 
 >>> route_sequence = RouteSequence()
 RouteSequence(AA0000)
+
 >>> next(route_sequence)
 RouteSequence(AA0001)
 ~~~
