@@ -33,12 +33,12 @@ RouteSequence(BA0001)
 You can also work with integers. Interally calculations and state is stored as an integer.
 
 ~~~ python
-from route_sequence import RouteSequence
+>>> from route_sequence import RouteSequence
 
-route_sequence = RouteSequence(1000)
-for route in route_sequence:
-    if route == 923300:
-        break
+>>> route_sequence = RouteSequence(1000)
+>>> for route in route_sequence:
+>>>     if route == 923300:
+>>>         break
         
 >>> print(route_sequence)
 RouteSequence(DO3300)
@@ -71,7 +71,9 @@ substract 1 from the route sequence.
 >>>from route_sequence import RouteSequence
 
 >>>route_sequence = RouteSequence()
-next(RouteSequence('ZB0001') - 1)
+RouteSequence(AA0000)
+
+>>>next(RouteSequence('ZB0001') - 1)
 RouteSequence(ZB0001)
 ~~~
 
