@@ -3,7 +3,7 @@
 A number range between 0 to 6759999 represented as AA0000 to ZZ9999.
 
 ## Usecase
-This number series is used as menomic number series that has two benefits over integers.
+This number series is used as mnemonic number series that has two distinct benefits over integers.
 Easier to remember, and over 6 times as many unique combinations (~6.7 mill instead 1 mill). The series also have a
 fixed with of 6 chars, which makes it uniform when printed.
 
@@ -48,13 +48,25 @@ from route_sequence import RouteSequence
 
 Iteration using next()
 ~~~ python
-from route_sequence import RouteSequence
+>>> from route_sequence import RouteSequence
 
-route_sequence = RouteSequence()
-next(route_sequence)
+>>> route_sequence = RouteSequence()
+>>> next(route_sequence)
 
 >>> print(route_sequence)
 RouteSequence(AA0001)
+~~~
+
+It's important to node the the first iteration will be the next value after the seed.
+If there is a need to use the seed value as the first in a generated sequence, you can
+substract 1 from the route sequence.
+
+~~~ python
+>>>from route_sequence import RouteSequence
+
+>>>route_sequence = RouteSequence()
+next(RouteSequence('ZB0001') - 1)
+RouteSequence(ZB0001)
 ~~~
 
 ## Mathmatical Operations
