@@ -3,10 +3,16 @@
 A number range between 0 to 6759999 represented as AA0000 to ZZ9999.
 
 ## Usecase
-This number series is used as mnemonic number series that has two distinct benefits over integers.
-Easier to remember, and over 6 times as many unique combinations (~6.7 mill instead 1 mill). The series also have a
-fixed with of 6 chars, which makes it uniform when printed.
+route-sequence is intended to be used as a mnemonic number series that has some distinct benefits over integers.
 
+1. Easy to remember due to the combination of letters and numbers
+2. Over 6 times as many combinations availible compared to 6 digit integers
+3. Fixed width.
+
+Some practical use cases could be a unique id for a configuration line, order number etc.
+
+Even though the number series supports mathmatical operations, the intention is to provide
+a unique number series.
 
 ## Usage
 
