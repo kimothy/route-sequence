@@ -115,7 +115,7 @@ RouteSequence(AA0003)
 
 
 ## Comparisons
-The RouteSequence object can be compared with both itegers and valid strings. This is handy since interally programs can use the integer values which is faster, while from a user interface perspective the string representation can be used as is. Interally the string representation is allways converted to and integer.
+The RouteSequence object can be compared with both integers and valid strings. This is handy since interally programs can use the integer values which is faster and simple, while from a user interface perspective the string representation can be used as is. Interally the string representation is allways converted to an integer.
 
 ~~~ python
 >>> from route_sequence import RouteSequence
