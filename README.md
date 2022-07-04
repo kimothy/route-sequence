@@ -5,8 +5,8 @@ A number range between 0 to 6759999 represented as AA0000 to ZZ9999.
 ## Usecase
 route-sequence is intended to be used as a mnemonic number series that has some distinct benefits over integers.
 
-1. Easy to remember due to the combination of letters and numbers
-2. Over 6 times as many combinations availible compared to 6 digit integers
+1. Easy to remember due to the combination of letters and numbers.
+2. Over 6 times as many combinations availible compared to 6 digit integers.
 3. Fixed width.
 
 Some practical use cases could be a unique id for a configuration line, order number etc.
